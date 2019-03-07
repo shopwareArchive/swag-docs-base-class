@@ -1,0 +1,26 @@
+{
+    "name": "swag/base-class",
+    "description": "Plugin base class example",
+    "version": "v1.0.0",
+    "type": "shopware-plugin",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "shopware AG"
+        }
+    ],
+    "require": {
+        "shopware/platform": "dev-master"
+    },
+    "extra": {
+        "installer-name": "BaseClass",
+        "label": {
+            "de_DE": "Beispiel Plugin für die Base Class",
+            "en_GB": "Example plugin for the base class"
+        },
+        "description": {
+            "de_DE": "Beispiel Plugin für die Base Class",
+            "en_GB": "Example plugin for the base class"
+        }
+    }
+}
