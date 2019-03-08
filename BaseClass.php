@@ -15,16 +15,6 @@ use Symfony\Component\Routing\RouteCollectionBuilder;
 
 class BaseClass extends Plugin
 {
-    public function isActive(): bool
-    {
-        $condition = true;
-        if ($condition) {
-            return true;
-        }
-
-        return false;
-    }
-
     public function install(InstallContext $context): void
     {
         // your code you need to execute while installation
