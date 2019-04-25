@@ -15,12 +15,12 @@
     "extra": {
         "shopware-plugin-class": "Swag\\BaseClass\\BaseClass",
         "label": {
-            "de_DE": "Beispiel Plugin für die Base Class",
-            "en_GB": "Example plugin for the base class"
+            "de-DE": "Beispiel Plugin für die Base Class",
+            "en-GB": "Example plugin for the base class"
         },
         "description": {
-            "de_DE": "Beispiel Plugin für die Base Class",
-            "en_GB": "Example plugin for the base class"
+            "de-DE": "Beispiel Plugin für die Base Class",
+            "en-GB": "Example plugin for the base class"
         }
     },
     "autoload": {
