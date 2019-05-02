@@ -1,26 +1,38 @@
 {
-    "name": "swag/base-class",
-    "description": "Plugin base class example",
-    "version": "v1.0.0",
+    "name": "swag/example-plugin",
+    "description": "Example plugin",
+    "version": "v1.0.1",
     "type": "shopware-platform-plugin",
     "license": "MIT",
     "authors": [
         {
-            "name": "shopware AG"
+            "name": "Example Company",
+            "homepage": "https://my.example.com",
         }
     ],
     "require": {
-        "shopware/platform": "dev-master"
+        "shopware/platform": "dev/master",
+        "example-plugin": "1.0.0"
     },
     "extra": {
-        "shopware-plugin-class": "Swag\\BaseClass\\BaseClass",
+        "shopware-plugin-class": "Swag\\ExamplePlugin\\ExamplePlugin",
+        "plugin-icon": "src/Resources/config/plugin.png",
+        "copyright": "(c) by shopware AG",
         "label": {
-            "de-DE": "Beispiel Plugin für die Base Class",
-            "en-GB": "Example plugin for the base class"
+            "de-DE": "Beispiel Plugin für Shopware",
+            "en-GB": "Example plugin for Shopware"
         },
         "description": {
-            "de-DE": "Beispiel Plugin für die Base Class",
-            "en-GB": "Example plugin for the base class"
+            "de-DE": "Deutsche Beschreibung des Plugins",
+            "en-GB": "English Description of Plugin"
+        },
+        "manufacturerLink": {
+            "de-DE": "https://store.shopware.com/shopware-ag.html",
+            "en-GB": "https://store.shopware.com/en/shopware-ag.html"
+        },
+        "supportLink": {
+            "de-DE": "https://docs.shopware.com/de",
+            "en-GB": "https://docs.shopware.com/en"
         }
     },
     "autoload": {
