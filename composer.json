@@ -11,20 +11,19 @@
         }
     ],
     "require": {
-        "shopware/platform": "dev/master",
-        "example-plugin": "1.0.0"
+        "shopware/platform": "dev-master"
     },
     "extra": {
         "shopware-plugin-class": "Swag\\ExamplePlugin\\ExamplePlugin",
         "plugin-icon": "src/Resources/config/plugin.png",
         "copyright": "(c) by shopware AG",
         "label": {
-            "de-DE": "Beispiel Plugin Label",
-            "en-GB": "Example plugin label"
+            "de-DE": "Label für das Plugin ExamplePlugin",
+            "en-GB": "Label for the plugin ExamplePlugin"
         },
         "description": {
-            "de-DE": "Deutsche Beschreibung des Plugins",
-            "en-GB": "English Description of Plugin"
+            "de-DE": "Beschreibung für das Plugin ExamplePlugin",
+            "en-GB": "Description for the plugin ExamplePlugin"
         },
         "manufacturerLink": {
             "de-DE": "https://store.shopware.com/shopware-ag.html",
