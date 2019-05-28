@@ -7,7 +7,7 @@
     "authors": [
         {
             "name": "Example Company",
-            "homepage": "https://my.example.com",
+            "homepage": "https://my.example.com"
         }
     ],
     "require": {
@@ -19,8 +19,8 @@
         "plugin-icon": "src/Resources/config/plugin.png",
         "copyright": "(c) by shopware AG",
         "label": {
-            "de-DE": "Beispiel Plugin für Shopware",
-            "en-GB": "Example plugin for Shopware"
+            "de-DE": "Beispiel Plugin Label",
+            "en-GB": "Example plugin label"
         },
         "description": {
             "de-DE": "Deutsche Beschreibung des Plugins",
