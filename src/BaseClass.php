@@ -55,19 +55,9 @@ class BaseClass extends Plugin
         // your code you need to execute while the DI container is built
     }
 
-    public function configureRoutes(RouteCollectionBuilder $routes, string $environment): void
-    {
-        $routes->import(__DIR__ . '/routes.xml');
-    }
-
     public function getMigrationNamespace(): string
     {
         return 'Swag\BaseClass\MyMigrationNamespace';
-    }
-
-    public function getContainerPrefix(): string
-    {
-        return 'my_container_prefix';
     }
 
     public function getViewPaths(): array
@@ -75,26 +65,6 @@ class BaseClass extends Plugin
         return [
             '/Resources/views'
         ];
-    }
-
-    public function getServicesFilePath(): string
-    {
-        return '/Resources/config/custom_config.xml';
-    }
-
-    public function getRoutesPath(): string
-    {
-        return '/Resources/custom_routes/';
-    }
-
-    public function getContainerPath(): string
-    {
-        return '/Resources/custom_dependency_injection/services.xml';
-    }
-
-    public function getAdministrationEntryPath(): string
-    {
-        return '/Resources/custom_administration_path/';
     }
 
     public function boot(): void
