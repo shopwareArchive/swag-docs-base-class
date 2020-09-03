@@ -60,13 +60,6 @@ class BaseClass extends Plugin
         return 'Swag\BaseClass\MyMigrationNamespace';
     }
 
-    public function getViewPaths(): array
-    {
-        return [
-            '/Resources/views'
-        ];
-    }
-
     public function boot(): void
     {
         parent::boot();

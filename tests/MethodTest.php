@@ -23,7 +23,6 @@ class MethodTest extends TestCase
             'uninstall',
             'build',
             'getMigrationNamespace',
-            'getViewPaths',
             'boot',
         ];
 

@@ -16,7 +16,7 @@
     </php>
 
     <testsuites>
-        <testsuite name="Example Plugins Testsuite">
+        <testsuite name="BaseClass Plugins Testsuite">
             <directory>tests</directory>
         </testsuite>
     </testsuites>
